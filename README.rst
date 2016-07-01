@@ -29,4 +29,14 @@ You can look at this course from 3 different perspectives:
 
 There is a `site for the course`_, which you are encouraged to visit.
 
+
+License
+=======
+
+The code is made avaiable under the GNU Affero General Public License. This
+includes the notebooks.
+
+The documentation in the docs directory has another license: The GNU Free
+Documentation License
+
 .. _site for the course: http://data-science.tiago.org/
