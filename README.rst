@@ -18,14 +18,14 @@ using Cython.
 You can look at this course from 3 different perspectives:
 
 * As a hands-on example from where you can take very practical ideas to
-apply directly to your work
+  apply directly to your work
 
 * As an advanced course in the Python ecosystem of libraries and frameworks
-for data science. And a little bit of the Javascript/browser side.
+  for data science. And a little bit of the Javascript/browser side.
 
 * As a presentation of the concepts behind advanced programming techniques for
-data science (data management, asynchronous programming, map-reduce frameworks,
-high-performance computing, ...)
+  data science (data management, asynchronous programming, map-reduce
+  frameworks, high-performance computing, ...)
 
 There is a `site for the course`_, which you are encouraged to visit.
 
