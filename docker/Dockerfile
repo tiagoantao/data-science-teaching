@@ -7,4 +7,4 @@ WORKDIR /data-science-teaching/notebooks
 
 ENTRYPOINT /opt/conda/bin/jupyter-notebook --no-browser --ip=*
 
-
+EXPOSE 8888
