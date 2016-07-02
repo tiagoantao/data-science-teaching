@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+raw
+notebooks/ag1000g.phase1.ar3.pass.biallelic.3L.vcf.gz.csi
+notebooks/all.h5
+notebooks/samples.all.txt
+notebooks/subsample.h5
+
