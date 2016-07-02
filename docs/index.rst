@@ -27,8 +27,22 @@ You can look at this course from 3 different perspectives:
   data science (data management, asynchronous programming, map-reduce
   frameworks, high-performance computing, ...)
 
-Contents:
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
 
+   intro
+   dataset
+   download
+   reducing
+
+Licenses
+========
+
+The text is licensed under the `GNU Free Documentation License`_.
+The notebooks are licensed under the `GNU Affero General Public License`_.
+
+.. _GNU Free Documentation License: https://www.gnu.org/licenses/fdl.html
+.. _GNU Affero General Public License: https://www.gnu.org/licenses/agpl.html
