@@ -22,8 +22,13 @@ Rigorously, the *Anopheles* mosquito does not transmit malaria, but
 transmits *Plasmodium*, the parasite that causes malaria.
 
 .. todo::
-    
+
     Refer the metadata notebook
 
 VCF Files
 =========
+
+
+.. todo::
+
+    Talk about indexing and partial remove download
