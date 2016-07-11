@@ -2,6 +2,32 @@
 Introduction
 **************
 
+Target audience
+===============
+
+.. warning::
+  This material requires at least some basic understanding of programming
+  concepts. Whilst Python is strictly not required, it is recommended. If you
+  are a biologist with little to no experience (e.g. less than a year) then
+  You are strongly recommended to get some programming exprience first.
+
+There are two potential target audiences for this course:
+
+* A programmer or statistician with no background in life sciences. In this
+  case you are strongly recommended to read the chapter on Genomics. You need
+  to have a basic understanding on genetics and genomic structure and the
+  chapter provides that. Do not worry, the level needed is introductory and
+  you might even know most of the content anyway.
+
+* Biologists with some programming experience. In this case you can skip most
+  of the chapter on genomics. That being said, you are recommended to read the
+  part on mosquito genomics just for information. Nothing more than a couple of
+  paragraphs.
+
+.. info::
+  This is not a course about biology. The material is about data processing
+  and analysis using genetics as the example.
+
 Tutorial components
 ====================
 
@@ -25,7 +51,7 @@ How to use the Notebooks
 ==========================
 
 The easiest and absolutely **not recommended** way to use this material is
-to only read it on github_. This is bad in many ways as the fundamental premise
+to only read it on `Jupyter viewer`_ (or even github_). This is bad in many ways as the fundamental premise
 of the notebooks.
 
 Online systems for notebooks (mybinder or SageMathCloud) are problably not a
@@ -38,9 +64,14 @@ Now lets look at the more realistic options...
 
   Have a good Internet connection. You will download ~50GB of data.
 
-  We will be using Python 3. Legacy versions are not supported.
+  We will be using Python 3. Legacy versions are not supported. Part of
+  the code will require at least 3.5.
 
-  All the text assumes that you used one of the options below.
+  All the text assumes that you used one of the options below to access the
+  material. While you can just read as specified above, this material is
+  intended for you to hack and tweak.
+
+  Finally this is *not* introductory material.
 
 The easiest way to install the notebooks is via Docker.
 
@@ -65,7 +96,39 @@ recommended. Not only it includes all the Python packages but also
 all the R content that we will be using here. You can have an idea of
 the necessary packages by looking at our Dockerfile_ (check the ``conda install`` lines).
 
-.. _github: https://github.com/tiagoantao/data-science-teaching
-.. _Kitematic: https://kitematic.com/
+A note about visualization
+==========================
+
+It goes without saying that many options underlying this course are open for
+discussion. From the programming language of choice, to the selected material
+and its organization. There are pleny of alternatives in terms of technologies,
+course structuring that are worthwhile considering. But there is one that
+I feel it worthwhile to talk about.
+
+The browser in itself is a very powerful computing platform, with well
+optimized JavaScript virtual machines which can run plenty of programming
+languages. We spent most of our time working on browsers, and tools like
+the Jupyter Notebook make the browser a feasible environment for exploratory
+data anaylysis and development of experimental algorithms.
+
+While there are plenty of amazing Python-based charting libraries (Matplotlib,
+Bokeh...) that interact well with the browser they cannot give you the
+flexibilty on in-browser based programming for visualization.
+
+Thus, while we will use Matplotlib for simple charting, I believe that we will
+have to bite browser-side programming for really insightful approaches to
+visualization. Note that browser-side programming does not have to mean
+Javascript. There are many alternatives to it. Personal recommendations would
+be Brython_ (Python on the browser!), ClojureScript_ and Elm_.
+
+Because this is a Python based course, we will *sometimes* use Brython instead of
+Javascript.
+
 .. _Anaconda Python: https://www.continuum.io/downloads
+.. _Brython: http://www.brython.info/
+.. _ClojureScript: https://github.com/clojure/clojurescript
 .. _Dockerfile: https://github.com/tiagoantao/data-science-teaching/blob/master/docker/Dockerfile
+.. _Elm: http://elm-lang.org/
+.. _github: https://github.com/tiagoantao/data-science-teaching
+.. _Jupyter viewer: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/000_Download_Data.ipynb
+.. _Kitematic: https://kitematic.com/

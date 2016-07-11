@@ -36,6 +36,7 @@ Contents
    intro
    dataset
    download
+   pre_processing
    reducing
 
 Licenses

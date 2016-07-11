@@ -1,7 +1,14 @@
 Downloading the data
 ********************
 
-To download the data, execute the Download notebook. Note that this will
+.. note::
+  Notebooks:
+
+  * Download_
+
+
+To download the data, execute the Download notebook (notebooks related to the text will be
+shown on the top of each chapter). Note that this will
 get approximately 50 GB of data. You will need sufficient disk space and
 and good internet connection.
 
@@ -25,3 +32,5 @@ Talk about indexing the partial file.
 
 HDF5 files
 ==========
+
+.. _Download: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/000_Download_Data.ipynb
