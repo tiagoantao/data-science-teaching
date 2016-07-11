@@ -36,8 +36,11 @@ Contents
    intro
    dataset
    download
+   speed
    pre_processing
    reducing
+   concurrent
+   PCA
 
 Licenses
 ========
