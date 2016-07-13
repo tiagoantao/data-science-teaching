@@ -33,4 +33,6 @@ Talk about indexing the partial file.
 HDF5 files
 ==========
 
+vitables
+
 .. _Download: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/000_Download_Data.ipynb

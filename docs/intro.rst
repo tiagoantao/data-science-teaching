@@ -28,6 +28,17 @@ There are two potential target audiences for this course:
   This is not a course about biology. The material is about data processing
   and analysis using genetics as the example.
 
+
+Course material
+===============
+
+This is a data science course based on bioinformatics. It has the motivational
+advantage of being completely hands-on and based on a real, concrete problem.
+But the downside is that
+it will only cover materials that are relevant to biological analysis,
+fortunately that still allows to cover a lot of terrain. But do not expect
+to find, for example natural language processing techniques here.
+
 Tutorial components
 ====================
 
@@ -46,6 +57,15 @@ The videos gives you an introduction to the material and the presentations
 are mostly used by myself when teaching this content. You might want to have
 a look at them, especially at the very beginning
 
+.. info::
+  While I have written a technical book in the past and am myself a avid book
+  reader (of non-techincal stuff), I strongly believe that the book format
+  is not appropriate for transmiting techincal knowledge. The core of this
+  course is a set of Jupyter notebooks which you are stronly encouraged to tinker
+  and change (learning via hands-on experience). In this text you can find
+  supporting notes to help you understand the code and the theory behind it
+  (along with suggestions of alternative options). In the future there will
+  also be videos and presentations if I find that these will be helpful.
 
 How to use the Notebooks
 ==========================
