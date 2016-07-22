@@ -31,12 +31,13 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    intro
    dataset
    download
    speed
+   parallel
    pre_processing
    reducing
    concurrent
