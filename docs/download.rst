@@ -1,3 +1,4 @@
+********************
 Downloading the data
 ********************
 
@@ -26,7 +27,7 @@ downloads of VCF files are possible
 * An equivalent HDF5 file
 
 Indexing
-==========
+========
 
 Talk about indexing the partial file.
 

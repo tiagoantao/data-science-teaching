@@ -144,6 +144,15 @@ be Brython_ (Python on the browser!), ClojureScript_ and Elm_.
 Because this is a Python based course, we will *sometimes* use Brython instead of
 Javascript.
 
+If you want to know more
+========================
+
+I will be providing some links to external reading. If you want to go deeper
+in some concepts where I do not provide links, then your suggested first port
+of call should be Wikipedia. Be aware that while the Engish version of Wikipedia
+provides high-quality versions of articles, other versions might be lacking.
+Read the English version first.
+
 .. _Anaconda Python: https://www.continuum.io/downloads
 .. _Brython: http://www.brython.info/
 .. _ClojureScript: https://github.com/clojure/clojurescript
