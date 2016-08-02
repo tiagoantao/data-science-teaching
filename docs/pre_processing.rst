@@ -1,6 +1,9 @@
 Converting the VCF file to an efficient (HDF5) format
 *****************************************************
 
+.. TODO::
+    Relate with HPC part
+
 .. note::
   Notebooks:
 

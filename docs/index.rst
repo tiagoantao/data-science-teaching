@@ -30,6 +30,10 @@ You can look at this course from 3 different perspectives:
 Contents
 ========
 
+
+Setting-up
+^^^^^^^^^^
+
 .. toctree::
    :maxdepth: 3
 
@@ -37,11 +41,45 @@ Contents
    dataset
    download
    speed
-   parallel
+
+Data management
+^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 3
+
    pre_processing
    reducing
+
+
+High-Performance Computing
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 3
+
+   parallel
    concurrent
+
+Machine Learning
+^^^^^^^^^^^^^^^^
+
+   .. toctree::
+      :maxdepth: 3
+
    PCA
+
+Appendixes
+==========
+
+Bioinformatics APIs
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 3
+
+   galaxy
+
 
 Licenses
 ========
