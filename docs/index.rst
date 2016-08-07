@@ -64,13 +64,21 @@ High-Performance Computing
 Machine Learning
 ^^^^^^^^^^^^^^^^
 
-   .. toctree::
-      :maxdepth: 3
+.. toctree::
+    :maxdepth: 3
 
-   PCA
+     PCA
 
 Appendixes
 ==========
+
+Further Reading
+^^^^^^^^^^^^^^^
+
+.. toctree::
+    :maxdepth: 3
+
+    python_reading
 
 Bioinformatics APIs
 ^^^^^^^^^^^^^^^^^^^
