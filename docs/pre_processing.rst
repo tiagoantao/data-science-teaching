@@ -10,6 +10,7 @@ Converting the VCF file to an efficient (HDF5) format
   * HDF5_VCF_Speed_Comparison_
 
 
+
 In this chapter we are going to scafold the code to convert a VCF file into
 a HDF5 representation. As you recall from the previous chapter traversing the
 complete VCF file can take days or even weeks so a typical big data workflow
@@ -34,6 +35,11 @@ mapreduce, non concurrent writing
 
 Careful with the number of processors
 
+.. info::
+    This chapter is presented for instructional purposes mosly on map-reduce
+    strategies. If you really want to convert a VCF file into numpy arrays or
+    HDF5 files, I recommend using Alistar Miles' vcfnp_.
+
 
 .. info::
   There are many many framekworks for parallel processing (there will be a chapter on this).
@@ -48,3 +54,4 @@ Careful with the number of processors
 .. _`Bioinformatics book`: http://www.amazon.com/Bioinformatics-Python-Cookbook-Tiago-Antao/dp/1782175113
 .. _`github notebook`: http://nbviewer.jupyter.org/github/tiagoantao/bioinf-python/blob/master/notebooks/08_Advanced/IPythonParallel.ipynb
 .. _`IPython Parallel`: https://ipython.org/ipython-doc/3/parallel/
+.. _vcfnp: https://github.com/alimanfoo/vcfnp
