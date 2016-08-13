@@ -41,6 +41,7 @@ Setting-up
    dataset
    download
    speed
+   basic_exploration
 
 Data management
 ^^^^^^^^^^^^^^^
