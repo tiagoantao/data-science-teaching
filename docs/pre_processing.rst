@@ -36,7 +36,8 @@ So we will make each process write a small HDF5 per computation and then a
 a single HDF5 file. Note that this single procedure will be much faster as
 it will read data not from a VCF file, but from a HDF5 file.
 
-
+.. TODO::
+    Return to exploration, explain code
 
 
 .. info::
