@@ -38,6 +38,13 @@ But the downside is that
 it will only cover materials that are relevant to biological analysis,
 fortunately that still allows to cover a lot of terrain. But do not expect
 to find, for example natural language processing techniques here.
+Sometimes we will extend the material a bit, in order to explain a point
+better, for example we might use a simpler dataset to explain a concept
+that would be too hard with the genomic data that we have.
+
+We will mostly use genetic data from the mosquito that transmits malaria,
+but every now and then we might use human genetic data.
+
 
 Tutorial components
 ====================
