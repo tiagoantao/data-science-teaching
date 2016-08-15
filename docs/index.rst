@@ -90,6 +90,15 @@ Bioinformatics APIs
    galaxy
 
 
+Teaching Notes
+^^^^^^^^^^^^^^
+
+   .. toctree::
+      :maxdepth: 3
+
+      teaching
+
+
 Licenses
 ========
 
