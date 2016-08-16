@@ -41,6 +41,9 @@ go across the course. As used in a pratical session.
     - **do a query example**
 
 - Basic data exploration (Basic Exploration)
+  - Reference genome
+    - Biopython
+    - gzip read
   - Using HDF5. State the code will not be explained at this stage
   - Exploration
     - Maximum chromosome position sequenced
@@ -57,7 +60,7 @@ go across the course. As used in a pratical session.
   - VCF format
     - Present the anopheles case
   - HDF5 format
-    - **vitables**
+    - vitables
   - HDF5 performance
     - in memory
     - disk read (?)
@@ -73,18 +76,28 @@ go across the course. As used in a pratical session.
 - General comments on data compression
   - Particular case:
     - FASTQ/SAM --> FASTQ.GZ/BAM -> VCF.GZ -> PLINK
+  - Geeky compression
   - Note to self: do compression notebooks
 
+- Parallel computing
+  - Parallel, concurrent and ditributed
+  - Local execution (sequencial and parallel) vs clusters
+  - Python
+    - GIL
+    - GIL release
+
 - Converting VCF to HDF5 (VCF_Processing_Parallel)
-  **complete**
+  **not complete**
+  **on big server, do not live-code**
   - sequencial example
   - dask
+  - comment on chromosome split
 
 - Performance (Performance)
   - Load a massive dataset into memory (or not)
   - Get the shape
   - Reshape
-  - **Transpose (view and copy)**
+  - Transpose (view and copy)
   - Get a subset
   - Memory hierarchy
     - CPU cache and starvation
@@ -103,19 +116,35 @@ go across the course. As used in a pratical session.
     - Numba
     - Future: CUDA (Numba) and compare libaries (BLAS et al)
 
-- Filtering (HDF5_Filtering)
-  **TBD**
-
 - Generators (HDF5_Filtering_Generators_extra)
-    **TBD**
-
-
-- Notes on computing the mean (HDF5_Filtering_Mean_extra)
+  - refer python2 range vs xrange
   **TBD**
+
+- Filtering (HDF5_Filtering)
+  - partial function application 
+  - subsampling
+  - filter chainning
+  - filter order
+  Refer LD, scikit-allel
+
+
+- Notes on computing the median (HDF5_Filtering_Mean_extra)
+  - mean vs median
+  - data properties (distribution...)
+  - memory cost
+  - Alternative approaches
+    - subsampling
+    - hash table
+    - approximation
 
 - Accessing R via Python
   - RPy2
-  **TBD**
+  - pandas as intermeddiate format
+  - where objects are (python vs R namespace)
 
 - Galaxy
-  **TBD**
+  - See results on the web inteface
+  - Get your api key
+  - FTP for upload
+  - getpass
+  
