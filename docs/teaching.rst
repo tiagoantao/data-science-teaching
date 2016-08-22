@@ -8,13 +8,17 @@ go across the course. As used in a pratical session.
 
 - Environment preparation
   - nbviewer vs docker vs manual
+
   - Do the manual part
+
     - conda
+
     - package install
+
     - Starting jupyter
-    -
 
 - Introduction to the dataset
+
   - Mosquito genomics
   - WGS
   - Ag1000 description
@@ -25,38 +29,51 @@ go across the course. As used in a pratical session.
   - partial download
   - indexing
   - Montana specific: data size comparison
+
     - **recover info on Anopheles data**
 
 - Metadata exploration (Metadata)
   - Pandas
+
     - R-like data frame
     - columns
     - group by
     - describe
     - series creation
+
   - Matplotlib
+
     - A subplot example with style!
   - Pandas
+
     - more group by examples
     - **do a query example**
 
 - Basic data exploration (Basic Exploration)
+
   - Reference genome
     - Biopython
     - gzip read
+
   - Using HDF5. State the code will not be explained at this stage
+
   - Exploration
+
     - Maximum chromosome position sequenced
     - Sample names
     - Number of markers
     - Example annotation per marker
     - Number of alternate alleles
     - Singletons and doubletons
+
       - ``*zip(*maf_count.items())``
 
-- VCF vs HDF5 performance ( HDF5_VCF_Speed_Comparison)
+- VCF vs HDF5 performance (HDF5_VCF_Speed_Comparison)
+
   - Before we start:
+
     - 0 vs 1 indexing
+
   - VCF format
     - Present the anopheles case
   - HDF5 format
@@ -75,14 +92,17 @@ go across the course. As used in a pratical session.
 
 - General comments on data compression
   - Particular case:
+
     - FASTQ/SAM --> FASTQ.GZ/BAM -> VCF.GZ -> PLINK
+
   - Geeky compression
   - Note to self: do compression notebooks
 
 - Parallel computing
-  - Parallel, concurrent and ditributed
+  - Parallel, concurrent and distributed
   - Local execution (sequencial and parallel) vs clusters
   - Python
+
     - GIL
     - GIL release
 
@@ -100,19 +120,23 @@ go across the course. As used in a pratical session.
   - Transpose (view and copy)
   - Get a subset
   - Memory hierarchy
+
     - CPU cache and starvation
     - Read a column vs a row
     - Show (Performance_CPU)
     - Fortran vs C
+
   - High performance computing
     - Naïve matrix multiplication
     - Partial Vectorization
     - Full vectorization
     - Cython
+
       - naïve
       - pseudo-smart
       - Properly annotated
       - Wheels off!
+
     - Numba
     - Future: CUDA (Numba) and compare libaries (BLAS et al)
 
@@ -133,6 +157,7 @@ go across the course. As used in a pratical session.
   - data properties (distribution...)
   - memory cost
   - Alternative approaches
+
     - subsampling
     - hash table
     - approximation

@@ -1,3 +1,3 @@
 *****************************
-Principal Components Analisys
+Principal Components Analysis
 *****************************

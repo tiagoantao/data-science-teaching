@@ -68,7 +68,7 @@ Machine Learning
 .. toctree::
     :maxdepth: 3
 
-     PCA
+    PCA
 
 Appendixes
 ==========
