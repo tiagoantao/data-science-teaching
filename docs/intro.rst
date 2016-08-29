@@ -5,12 +5,6 @@ Introduction
 Target audience
 ===============
 
-.. warning::
-  This material requires at least some basic understanding of programming
-  concepts. Whilst Python is strictly not required, it is recommended. If you
-  are a biologist with little to no experience (e.g. less than a year) then
-  You are strongly recommended to get some programming exprience first.
-
 There are two potential target audiences for this course:
 
 * A programmer or statistician with no background in life sciences. In this
@@ -19,7 +13,7 @@ There are two potential target audiences for this course:
   chapter provides that. Do not worry, the level needed is introductory and
   you might even know most of the content anyway.
 
-* Biologists with some programming experience. In this case you can skip most
+* Biologists with *a lot* programming experience. In this case you can skip most
   of the chapter on genomics. That being said, you are recommended to read the
   part on mosquito genomics just for information. Nothing more than a couple of
   paragraphs.

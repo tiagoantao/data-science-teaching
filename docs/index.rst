@@ -13,7 +13,7 @@ applicable to most other data science fields.
 
 This course is mostly Python based, but it will use Javascript (browser)
 for visualization. We also discuss interfacing with R and speed optimizations
-using Cython.
+using Cython and Numba.
 
 You can look at this course from 3 different perspectives:
 
@@ -26,6 +26,12 @@ You can look at this course from 3 different perspectives:
 * As a presentation of the concepts behind advanced programming techniques for
   data science (data management, asynchronous programming, map-reduce
   frameworks, high-performance computing, ...)
+
+.. warning::
+  This course is in the very early stages of development, so the available
+  content is still **very very reduced**. I will be extending this in the
+  next few months. If you find mistakes (and there will be a lot), please
+  contact me
 
 Contents
 ========
