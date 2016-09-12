@@ -160,5 +160,5 @@ Read the English version first.
 .. _Dockerfile: https://github.com/tiagoantao/data-science-teaching/blob/master/docker/Dockerfile
 .. _Elm: http://elm-lang.org/
 .. _github: https://github.com/tiagoantao/data-science-teaching
-.. _Jupyter viewer: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/000_Download_Data.ipynb
+.. _Jupyter viewer: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/preparation/Download_Data.ipynb
 .. _Kitematic: https://kitematic.com/

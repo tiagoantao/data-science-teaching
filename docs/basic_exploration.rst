@@ -19,5 +19,5 @@ Here we are going to inspect that dataset along with the metadata.
     as we will get to it.
 
 
-.. _Basic_Exploration: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/001_Basic_Exploration.ipynb
-.. _Metadata: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/001_Metadata.ipynb
+.. _Basic_Exploration: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/main/Basic_Exploration.ipynb
+.. _Metadata: http://nbviewer.jupyter.org/github/tiagoantao/data-science-teaching/blob/master/notebooks/main/Metadata.ipynb
