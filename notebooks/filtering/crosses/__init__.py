@@ -1,4 +1,5 @@
 import random 
+import warnings
 
 import tables
 
@@ -73,8 +74,13 @@ def get_mendel_results():
     return mendel_results, has_errors
 
 
-
 def get_train(annotations, return_scaler=False, normalize=True, scale=True):
+    warnings.warn('use get_dataset_with_outcome', DeprecationWarning)
+    return get_dataset_with_outcome(annotations, return_scaler,
+                                    normalize, scale)
+
+def get_dataset_with_outcome(annotations, return_scaler=False,
+                             normalize=True, scale=True):
     train_X = []
     train_Y = []
     scaler = preprocessing.StandardScaler()
